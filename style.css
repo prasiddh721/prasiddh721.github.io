@@ -228,4 +228,34 @@ body.light{cursor:auto;}
 	.footer-grid{grid-template-columns:1fr 1fr;}
 }
 @media(max-width:768px){.nav-links{position:fixed;top:70px;left:0;right:0;background:rgba(5,8,22,.95);backdrop-filter:blur(20px);flex-direction:column;align-items:center;gap:1.5rem;padding:2rem;transform:translateY(-150%);transition:transform .3s;border-bottom:1px solid var(--glass-border);}.nav-links.open{transform:translateY(0);}.hamburger{display:flex;}.projects-grid{grid-template-columns:1fr;}.cert-grid{grid-template-columns:repeat(2,1fr);}.about-stats{grid-template-columns:repeat(2,1fr);}.footer-grid{grid-template-columns:1fr;}.hero-buttons{flex-direction:column;align-items:flex-start;}.resume-card{flex-direction:column;text-align:center;}}
+@media(max-width:768px){
+	.nav-links{position:fixed;top:70px;left:0;right:0;background:rgba(5,8,22,.95);backdrop-filter:blur(20px);flex-direction:column;align-items:center;gap:1.5rem;padding:2rem;transform:translateY(-150%);transition:transform .3s;border-bottom:1px solid var(--glass-border);}
+	.nav-links.open{transform:translateY(0);}
+	.hamburger{display:flex;}
+	.projects-grid{grid-template-columns:1fr;}
+	.cert-grid{grid-template-columns:repeat(2,1fr);}
+	.about-stats{grid-template-columns:repeat(2,1fr);}
+	.footer-grid{grid-template-columns:1fr;}
+	.hero-buttons{flex-direction:column;align-items:flex-start;}
+	.resume-card{flex-direction:column;text-align:center;}
+	/* Mobile hero adjustments */
+	.hero-content{padding-top:2.5rem;}
+	.hero-name{font-size:2rem;line-height:1.05;margin-bottom:.6rem;text-align:left;}
+	.hero-greeting{font-size:.95rem;margin-bottom:.3rem;}
+	.hero-desc{max-width:100%;font-size:.95rem;margin-bottom:1rem;}
+	.hero-buttons a{padding:.6rem 1rem;font-size:.9rem;border-radius:12px}
+	/* Restore background visuals on mobile but keep them subtle */
+	.hero-orb{opacity:0.25;filter:blur(60px);}
+	#particles-canvas{display:block;opacity:0.6}
+	.hero-image-wrap{display:block;width:160px;height:160px;margin:1rem auto 0}
+	.hero-img-ring,.hero-img-inner{width:100%;height:100%;padding:3px}
+	.scroll-down{display:block}
+}
 @media(max-width:480px){.cert-grid{grid-template-columns:1fr;}.skill-cards{grid-template-columns:1fr;}.about-stats{grid-template-columns:1fr 1fr;}}
+@media(max-width:480px){
+	.hero-name{font-size:1.6rem}
+	.hero-greeting{font-size:.9rem}
+	.hero-desc{font-size:.92rem}
+	.hero-image-wrap{width:140px;height:140px}
+	.hero-buttons a{padding:.6rem .9rem;font-size:.88rem}
+}
