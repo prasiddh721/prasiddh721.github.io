@@ -243,7 +243,13 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 // ===================== DARK/LIGHT TOGGLE =====================
 const themeBtn = document.getElementById('theme-toggle');
 const root = document.documentElement;
-let dark = true;
+// Initialize based on HTML `data-theme` (we set default to light in index.html)
+let dark = root.getAttribute('data-theme') === 'dark';
+// Set initial button icon and body class
+if (themeBtn) {
+  themeBtn.innerHTML = dark ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-sun"></i>';
+}
+document.body.classList.toggle('light', !dark);
 themeBtn.addEventListener('click', () => {
   dark = !dark;
   root.setAttribute('data-theme', dark ? 'dark' : 'light');
