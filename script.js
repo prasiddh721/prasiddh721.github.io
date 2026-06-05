@@ -300,7 +300,7 @@ document.getElementById('contact-form').addEventListener('submit', async e => {
       ];
       const body = encodeURIComponent(bodyLines.join('\n'));
       // Use your email address here (recipient)
-      const mailto = `mailto:prasiddh99@gmail.com?subject=${subject}&body=${body}`;
+      const mailto = `mailto:prasiddh148.official@gmail.com?subject=${subject}&body=${body}`;
       showToast('Opening your email client...');
       // small delay to show toast before redirect
       setTimeout(() => { window.location.href = mailto; }, 600);
@@ -323,7 +323,7 @@ document.getElementById('contact-form').addEventListener('submit', async e => {
     }
   } catch (err) {
     console.error('Contact form error:', err);
-    msg.innerHTML = '<span style="color:#f87171;font-size:.9rem">❌ Failed. Email directly: prasiddh99@gmail.com</span>';
+    msg.innerHTML = '<span style="color:#f87171;font-size:.9rem">❌ Failed. Email directly: prasiddh148.official@gmail.com</span>';
     showToast('❌ Could not send. Try emailing directly!');
   } finally {
     btn.disabled = false;

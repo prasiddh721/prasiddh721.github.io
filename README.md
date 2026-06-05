@@ -72,7 +72,7 @@ Tools       : Power BI · IBM Cognos · Git · GitHub · VS Code · Jupyter · G
 
 | Platform | Link |
 |---|---|
-| 📧 Email | prasiddh99@gmail.com |
+| 📧 Email | prasiddh148.official@gmail.com |
 | 💼 LinkedIn | [prasiddh-prajapati](https://www.linkedin.com/in/prasiddh-prajapati-bb4133302) |
 | 🐙 GitHub | [prasiddh721](https://github.com/prasiddh721) |
 | 🐦 Twitter/X | [@prasiddh148](https://x.com/prasiddh148) |
